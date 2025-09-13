@@ -64,7 +64,71 @@ h1, h2 {
 }
 .header img {
     max-width: 400px;
+    padding: 20px;
+    height: 400px;
 }
 .header .container {
     display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+.header button {
+    border-radius: 20px;
+    background-color: #ed3333;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    text-decoration: underline;
+    display: flex;
+    margin-top: 50px;
+}
+.boxes .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.boxes img {
+    width: 400px;
+    height: 300px;
+    object-fit: scale-down;
+}
+.boxes h2 {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #ff8989;
+    margin: 20px 10px;
+    padding: 15px 20px;
+}
+
+.tifosi {
+    background-color:#ed3333;
+
+}
+.tifosi .container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 18px;
+}
+.tifosi p {
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 250px;
+}
+.tifosi h2 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
